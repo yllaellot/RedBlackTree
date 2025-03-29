@@ -10,7 +10,8 @@ add_subdirectory("./googletest")
 mark_as_advanced(BUILD_GTEST BUILD_SHARED_LIBS)
 enable_testing()
 
-include_directories(./MyRedBalackTree MyRedBalackTree)
+include_directories(./MyRedBalackTree)
 
 add_subdirectory(./set set)
-add_subdirectory(./tests)
+add_subdirectory(./test)
+add_subdirectory(./MyRedBlackTree)
